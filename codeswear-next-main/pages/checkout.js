@@ -91,7 +91,7 @@ const Checkout = ({ cart, addToCart, removeFromCart, subTotal, clearCart }) => {
     if (!existingScript) {
       const script = document.createElement("script");
       script.src =
-        "https://securegw-stage.paytm.in/merchantpgpui/checkoutjs/merchants/YOUR_PAYTM_MID.js"; // Replace YOUR_PAYTM_MID
+        "https://securegw-stage.paytm.in/merchantpgpui/checkoutjs/merchants/DIY12386817555501617.js"; // Replace YOUR_PAYTM_MID
       script.id = "paytm-checkout-js";
       script.crossOrigin = "anonymous";
       document.body.appendChild(script);
