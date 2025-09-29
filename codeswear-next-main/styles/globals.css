@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  overflow-x: hidden;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+.bg-green {
+  background-color: green;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.opacity-1 {
+  opacity: 1;
+}
